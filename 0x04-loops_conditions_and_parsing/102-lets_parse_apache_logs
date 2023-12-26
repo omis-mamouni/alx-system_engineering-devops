@@ -2,4 +2,3 @@
 # parse Apache logs
 
 awk -F " " '{print $1,$9}' apache-access.log
-
