@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# parse Apache logs
+# displays the visitor IP alog with HTTP status code from the Apache log file
 
-awk -F " " '{print $1,$9}' apache-access.log
+awk '{print $1,$9}' apache-access.log
