@@ -7,7 +7,7 @@ Any information that is not encrypted and sniffed by an attacker can be seen by 
 
 In this project, we will not go over ARP spoofing, but we’ll start by sniffing unencrypted traffic and getting information out of it.
 
-![image](https://github.com/aitmensouryassine/alx-system_engineering-devops/assets/125558854/2898c04c-156b-48ba-996f-7f28444e7899)
+
 
 
 ## 1. Dictionary attack
@@ -21,4 +21,3 @@ Password-based authentication systems can be easily broken by using a dictionary
 Because the Docker container is running locally, hydra should access the SSH account via IP 127.0.0.1 and port 2222
 Hint: the password is 11 characters long
 
-![image](https://github.com/aitmensouryassine/alx-system_engineering-devops/assets/125558854/a375f1d1-7373-4ab5-9e7e-9f23bc0b6682)
